@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "health_check",
+      "input": {
+        "input": {
+          "workflow": {}
+        }
+      },
+      "timeout": 300
+    }
+  ]
+}

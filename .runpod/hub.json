@@ -1,0 +1,15 @@
+{
+  "title": "ComfyUI Qwen-Image-2512",
+  "description": "ComfyUI worker with Qwen-Image-2512 models for image generation",
+  "category": "image-generation",
+  "env": [],
+  "deploy": {
+    "containerDiskInGb": 60,
+    "gpuIds": ["NVIDIA A40", "NVIDIA GeForce RTX 4090", "NVIDIA L40S"],
+    "idleTimeout": 5,
+    "scalerType": "QUEUE_DELAY",
+    "scalerValue": 4,
+    "workersMin": 0,
+    "workersMax": 1
+  }
+}
