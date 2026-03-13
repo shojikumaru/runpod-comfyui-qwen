@@ -1,5 +1,5 @@
 # RunPod ComfyUI Worker with Qwen-Image-2512 models
-FROM runpod/worker-comfyui:3.7.3-base
+FROM runpod/worker-comfyui:5.7.1-base
 
 # Download Qwen-Image-2512 models using comfy-cli
 # 1. Text Encoder (8.7GB)
